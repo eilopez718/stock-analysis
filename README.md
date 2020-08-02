@@ -7,21 +7,18 @@ population of stocks.
 
 ## Results:
 ### Stock Analysis:
-Of the stocks Steve gave us to analyse, only two stocks showed year-over-year improvement in yearly returns: RUN and TERP.  Of those two, 
-only RUN had a positive return in 2018.  TERP improved their performance by virtue of having a smaller loss than the year before.  Also,
+Of the stocks Steve gave us to analyse, only two stocks showed stronger returns in 2018 than 2017: RUN and TERP.  Of those two, 
+only RUN had a positive return in 2018.  TERP improved their performance by virtue of having a smaller loss than the year before. Also, 
 while ENPH posted smaller returns in 2018 than 2017, it still had 2018 returns of almost 82% on high volume.  See below: 
 
 
-Of the 12 stocks Steve asked
-me to analyse, I would strongly recommend RUN stock, and would only offer a lukewarm endorsement of ENPH, which has posted strong returns
-in two consecutive years, even if trending downwards.
+![2017_returns](https://user-images.githubusercontent.com/68127033/89134376-b316a000-d4f2-11ea-91f7-c768e80d93ce.png)
 
 
+![2018_returns](https://user-images.githubusercontent.com/68127033/89134516-d7bf4780-d4f3-11ea-87af-2f13b928f480.png)
 
-
-
-
-
+Of the 12 stocks Steve asked me to analyse, I would strongly recommend RUN stock, but would only offer a lukewarm endorsement 
+of ENPH, which has posted strong returns in two consecutive years, even if trending downwards.
 
 ### Analysis of Script Performance:
 Re-factoring our script definitely improved the efficiency of the code.  Establishing an index for the list of stocks allowed us not to have 
