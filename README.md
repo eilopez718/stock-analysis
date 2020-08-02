@@ -9,9 +9,16 @@ population of stocks.
 ### Stock Analysis:
 Of the stocks Steve gave us to analyse, only two stocks showed year-over-year improvement in yearly returns: RUN and TERP.  Of those two, 
 only RUN had a positive return in 2018.  TERP improved their performance by virtue of having a smaller loss than the year before.  Also,
-while ENPH posted smaller returns in 2018 than 2017, it still had returns of almost 82% on high volume.  
+while ENPH posted smaller returns in 2018 than 2017, it still had 2018 returns of almost 82% on high volume.  See below: 
 
-See below:
+
+Of the 12 stocks Steve asked
+me to analyse, I would strongly recommend RUN stock, and would only offer a lukewarm endorsement of ENPH, which has posted strong returns
+in two consecutive years, even if trending downwards.
+
+
+
+
 
 
 
