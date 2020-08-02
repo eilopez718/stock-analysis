@@ -21,11 +21,16 @@ Of the 12 stocks Steve asked me to analyse, I would strongly recommend RUN stock
 of ENPH, which has posted strong returns in two consecutive years, even if trending downwards.
 
 ### Analysis of Script Performance:
-Re-factoring our script definitely improved the efficiency of the code.  Establishing an index for the list of stocks allowed us not to have 
+Refactoring our script definitely improved the efficiency of the code.  Establishing an index for the list of stocks allowed us not to have 
 to nest the loops, which created additional permutations of code in the initial build.  In the initial analysis, the 'inner loop' relied on 
-iterations of the cell coordinates in order to identify the specific stock being analyzed and and return a value:  IMAGE:CODE  As a result
+iterations of the cell coordinates in order to identify the specific stock being analyzed and and return a value:  
+
+IMAGE:CODE  
+
+As a result
 the Inner Loop ran through all the data looking for one specific stock ticker (depending on which iteration it was up to) and then performed
-the calculation.   With the re-factored code, the : IMAGE: CODE
+the calculation.   Additionally, the "If" statements we used to derive the starting and ending prices were streamlined, since the ticker symbol
+had already been defined within that loop; that cut down on processing time as well: IMAGE: CODE
 
 The refactored code resulted in a more than 80% reduction in processing time!
 
@@ -33,8 +38,6 @@ IMAGE: GRAPHS (1,2,3)
 
 ##Summary:
 
-	1. Refactoring code is useful for separating constant elements from variable elements in a piece of code.  If something is a known quantity and will be constant for all iterations
-of your script (like our list of stock tickers), it is better to remove that element from the loop, create a container for it, and simply reference it in the loop.  Calculating the information
-inside the loop significantly increases processing time.  Also, an effort should be made to minimize the size of nested loops, as each additional loop results in additional processing time.
+	1. Refactoring code is useful for separating constant elements from variable elements in a piece of code.  If something is a known quantity and will be constant for all iterationsof your script (like our list of stock tickers), it is better to remove that element from the loop, create a container for it, and simply reference it in the loop.  Calculating the information inside the loop significantly increases processing time.  Also, an effort should be made to minimize the size of nested loops, as each additional loop results in additional processing time.
 
-	2.
+	2. 
