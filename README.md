@@ -34,6 +34,7 @@ nesting the loops, which created additional permutations of code in the initial 
 already defined within the loop. Additionally, the "If" statements we used to derive the starting and ending prices were streamlined,
 since we no longer needed 'and' argument requring the code to search for the stock symbol:
 
+![refactored_code](https://user-images.githubusercontent.com/68127033/89134669-bad74400-d4f4-11ea-983f-232df7f1a2d3.png)
 
 As as result, the script run times for each of the years were drastically reduced:
 
@@ -63,9 +64,8 @@ The refactored code resulted in a more than 80% reduction in processing time!
 
 Refactoring code is useful for separating fixed elements from variable elements in a piece of code.  If something 
 is a known quantity and will be constant for all iterations of your script (like our list of stock tickers), it is better to remove
-that element from the loop, create a container for it, and simply reference it in the loop.  Calculating the information inside the
-loop significantly increases processing time.  Also, while loops are a necessary and useful way of solving problems, they are 
-memory intensive and code should be written in a way to minimize the complexity of the loops being run.
+that element from the loop, create a container for it, and simply reference it in the loop.  Loops are useful, but they are 
+memory intensive and code should be written in a way to minimize their complexity.
 
 ### Advantages and Disadvantages of the Original and Refactored VBA script:
 
